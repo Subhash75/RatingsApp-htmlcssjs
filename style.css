@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+div.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.ratings {
+  border: solid transparent;
+  border-radius: 15px;
+  color: white;
+  background-color:  hsl(213, 19%, 18%);
+  width: 375px;
+  padding: 1.5em;
+}
+
+div.ratings > div.ratings_image > img {
+  margin-left: 10px;
+}
+
+div.ratings > div.ratings_text > h1 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+div.ratings > div.ratings_text > p {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+div.ratings > div.ratings_button {
+ padding-bottom: 1em;
+}
+
+
+div.ratings > div.ratings_button > button:not(div.ratings_button > button:last-of-type) {
+  font-size: 15px;
+  font-weight: 900;
+  border: solid transparent;
+  border-radius: 50%;
+  width: 15%;
+  margin: .5em;
+  padding: 1em .5em;
+  background-color: hsl(216, 12%, 54%);
+}
+
+div.ratings > div.ratings_button > button.submit_button {
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: solid transparent;
+  border-radius: 15px;
+  display: block;
+  width: 90%;
+  margin: 1.5em auto;
+  padding: 1em 1em;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+
+div.container > div.ratings > div.ratings_button > button:hover {
+  background-color: green ;
+}
+
